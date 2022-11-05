@@ -47,6 +47,7 @@ try {
             }
         }
         body.data.top_left.url = "bilibili://user_center/"
+        body.data.top_left.goto = -1
     }
 } catch (e) {
     console.log('ERROR: bilibili_button, ' + e)
